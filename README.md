@@ -2,9 +2,9 @@
 
 # 🍓 Bibi & Fufu Codex Pet 🐰
 
-**让 Bibi 和 Fufu 陪你一起写代码、等待任务、检查结果！**
+**让比比和芙芙陪你一起写代码、等待任务、检查结果！**
 
-一只软乎乎的双人 Codex v2 动态宠物，保留了两位角色的粉色手绘风格与牵手互动。
+两只软乎乎超级可爱的 Codex v2 粉色大耳朵兔子！
 
 ![Bibi & Fufu 全部动画状态预览](preview.png)
 
@@ -26,7 +26,15 @@
 
 ## 📦 安装方法
 
-### 方法一：手动安装（推荐）
+### 方法一：让codex帮你安装（推荐）
+
+在 Codex app 直接输入以下提示詞：
+
+```
+从 itoyohane/Bibi-and-Fufu-pet repo下载并安装 Bibi & Fufu 宠物到我的 Codex
+```
+
+### 方法二：手动安装
 
 1. 点击仓库右上角的 **Code → Download ZIP**。
 2. 解压下载的 ZIP 文件。
@@ -54,7 +62,7 @@
 
 7. 完全退出并重新打开 Codex，然后在宠物选择器中启用 **Bibi and Fufu**。
 
-### 方法二：PowerShell 安装
+### 方法三：PowerShell 安装
 
 在解压后的仓库目录中打开 PowerShell，运行：
 
@@ -87,11 +95,11 @@ Copy-Item -LiteralPath '.\pet.json', '.\spritesheet.webp' -Destination $petDir -
 
 喜欢 Bibi 和 Fufu 的话，请前往原作者主页支持：
 
-- [哔哩哔哩 · 原作者主页](https://space.bilibili.com/3546967342844209?spm_id_from=333.337.0.0)
-- [小红书 · 原作者主页](https://www.xiaohongshu.com/user/profile/688a00c200000000290173a0?m_source=pwa&xsec_token=ABJds6QJHmTjDTzH3vRoN8ICNgWbvNGconM8wQ7KnKa-U=&xsec_source=pc_search)
+- [比比和芙芙 in 哔哩哔哩](https://space.bilibili.com/3546967342844209?spm_id_from=333.337.0.0)
+- [比比和芙芙 in 小红书](https://www.xiaohongshu.com/user/profile/688a00c200000000290173a0?m_source=pwa&xsec_token=ABJds6QJHmTjDTzH3vRoN8ICNgWbvNGconM8wQ7KnKa-U=&xsec_source=pc_search)
 
 ## 🌷 说明
 
 这是基于原角色形象制作的非官方 Codex Pet。角色形象及相关权利归原作者所有；本仓库不代表原作者官方发布或授权。
 
-希望这对可爱的小伙伴能让你的编码时间更开心一点。🍓🐰
+希望比芙能让你打开codex后心情也是粉色~🍓🐰

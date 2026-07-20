@@ -10,43 +10,14 @@
 
 ## ✨ 动画内容
 
-每个标准状态都单独展示如下：
+每个标准状态都各自保留一张独立预览：
 
-### 🌸 待机
-
-![Bibi & Fufu 待机动画](assets/states/idle.gif)
-
-### 🏃 向右移动
-
-![Bibi & Fufu 向右移动动画](assets/states/running-right.gif)
-
-### 🏃 向左移动
-
-![Bibi & Fufu 向左移动动画](assets/states/running-left.gif)
-
-### 👋 挥手
-
-![Bibi & Fufu 挥手动画](assets/states/waving.gif)
-
-### 🎀 跳跃
-
-![Bibi & Fufu 跳跃动画](assets/states/jumping.gif)
-
-### 🥺 失败或取消
-
-![Bibi & Fufu 失败动画](assets/states/failed.gif)
-
-### ⏳ 等待
-
-![Bibi & Fufu 等待动画](assets/states/waiting.gif)
-
-### 💨 任务运行中
-
-![Bibi & Fufu 任务运行动画](assets/states/running.gif)
-
-### 🔍 检查结果
-
-![Bibi & Fufu 检查结果动画](assets/states/review.gif)
+| 状态 | 预览 | 状态 | 预览 |
+| --- | --- | --- | --- |
+| 🌸 待机 | ![Bibi & Fufu 待机动画](assets/states/idle.gif) | 🏃 向右移动 | ![Bibi & Fufu 向右移动动画](assets/states/running-right.gif) |
+| 🏃 向左移动 | ![Bibi & Fufu 向左移动动画](assets/states/running-left.gif) | 👋 挥手 | ![Bibi & Fufu 挥手动画](assets/states/waving.gif) |
+| 🎀 跳跃 | ![Bibi & Fufu 跳跃动画](assets/states/jumping.gif) | ⏳ 等待 | ![Bibi & Fufu 等待动画](assets/states/waiting.gif) |
+| 💨 任务运行中 | ![Bibi & Fufu 任务运行动画](assets/states/running.gif) | 🔍 检查结果 | ![Bibi & Fufu 检查结果动画](assets/states/review.gif) |
 
 另包含 16 个视线方向，方便宠物跟随 Codex 的状态变化。
 
@@ -107,7 +78,11 @@ Copy-Item -LiteralPath '.\pet.json', '.\spritesheet.webp' -Destination $petDir -
 | --- | --- |
 | `pet.json` | Codex v2 宠物配置 |
 | `spritesheet.webp` | 1536 × 2288、8 × 11 的透明动画图集 |
-| `assets/states/*.gif` | 九个标准状态的独立动画预览 |
+| `assets/states/*.gif` | 八个标准状态的独立动画预览 |
+
+## 🎨 造型参考
+
+宠物造型参考：[Bilibili 视频](https://www.bilibili.com/video/BV1AerZB6EbJ/?spm_id_from=333.1387.upload.video_card.click&vd_source=a2cc43d06167c850671a7c6a93dcd5b8)
 
 ## 💗 原作者主页
 

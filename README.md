@@ -95,8 +95,8 @@ Copy-Item -LiteralPath '.\pet.json', '.\spritesheet.webp' -Destination $petDir -
 
 喜欢 Bibi 和 Fufu 的话，请前往原作者主页支持：
 
-- [比比和芙芙 in 哔哩哔哩](https://space.bilibili.com/3546967342844209?spm_id_from=333.337.0.0)
-- [比比和芙芙 in 小红书](https://www.xiaohongshu.com/user/profile/688a00c200000000290173a0?m_source=pwa&xsec_token=ABJds6QJHmTjDTzH3vRoN8ICNgWbvNGconM8wQ7KnKa-U=&xsec_source=pc_search)
+- [比比和芙芙 in 哔哩哔哩](https://space.bilibili.com/3546967342844209)
+- [比比和芙芙 in 小红书](https://www.xiaohongshu.com/user/profile/688a00c200000000290173a0)
 
 ## 🌷 说明
 

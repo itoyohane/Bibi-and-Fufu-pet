@@ -6,23 +6,20 @@
 
 两只软乎乎超级可爱的 Codex v2 粉色大耳朵兔子！
 
-![Bibi & Fufu 全部动画状态预览](preview.png)
-
 </div>
 
 ## ✨ 动画内容
 
-包含 Codex Pet 所需的完整动画：
+每个标准状态都各自保留一张独立预览：
 
-- 🌸 待机、眨眼与轻轻呼吸
-- 🏃 向左、向右移动
-- 👋 挥手打招呼
-- 🎀 跳跃与悬浮
-- 🥺 失败或取消反应
-- ⏳ 等待用户输入
-- 💨 任务运行中——牵手向前飞
-- 🔍 检查完成结果
-- 👀 16 个视线方向
+| 状态 | 预览 | 状态 | 预览 |
+| --- | --- | --- | --- |
+| 🌸 待机 | ![Bibi & Fufu 待机动画](assets/states/idle.gif) | 🏃 向右移动 | ![Bibi & Fufu 向右移动动画](assets/states/running-right.gif) |
+| 🏃 向左移动 | ![Bibi & Fufu 向左移动动画](assets/states/running-left.gif) | 👋 挥手 | ![Bibi & Fufu 挥手动画](assets/states/waving.gif) |
+| 🎀 跳跃 | ![Bibi & Fufu 跳跃动画](assets/states/jumping.gif) | ⏳ 等待 | ![Bibi & Fufu 等待动画](assets/states/waiting.gif) |
+| 💨 任务运行中 | ![Bibi & Fufu 任务运行动画](assets/states/running.gif) | 🔍 检查结果 | ![Bibi & Fufu 检查结果动画](assets/states/review.gif) |
+
+另包含 16 个视线方向，方便宠物跟随 Codex 的状态变化。
 
 ## 📦 安装方法
 
@@ -89,7 +86,11 @@ Copy-Item -LiteralPath '.\pet.json', '.\spritesheet.webp' -Destination $petDir -
 | --- | --- |
 | `pet.json` | Codex v2 宠物配置 |
 | `spritesheet.webp` | 1536 × 2288、8 × 11 的透明动画图集 |
-| `preview.png` | 全部动画状态预览 |
+| `assets/states/*.gif` | 八个标准状态的独立动画预览 |
+
+## 🎨 造型参考
+
+宠物造型参考：[Bilibili 视频](https://www.bilibili.com/video/BV1AerZB6EbJ/?spm_id_from=333.1387.upload.video_card.click&vd_source=a2cc43d06167c850671a7c6a93dcd5b8)
 
 ## 💗 原作者主页
 

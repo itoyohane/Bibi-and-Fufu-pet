@@ -10,16 +10,12 @@
 
 ## ✨ 动画内容
 
-每个标准状态都各自保留一张独立预览：
-
 | 状态 | 预览 | 状态 | 预览 |
 | --- | --- | --- | --- |
 | 🌸 待机 | ![Bibi & Fufu 待机动画](assets/states/idle.gif) | 🏃 向右移动 | ![Bibi & Fufu 向右移动动画](assets/states/running-right.gif) |
 | 🏃 向左移动 | ![Bibi & Fufu 向左移动动画](assets/states/running-left.gif) | 👋 挥手 | ![Bibi & Fufu 挥手动画](assets/states/waving.gif) |
 | 🎀 跳跃 | ![Bibi & Fufu 跳跃动画](assets/states/jumping.gif) | ⏳ 等待 | ![Bibi & Fufu 等待动画](assets/states/waiting.gif) |
 | 💨 任务运行中 | ![Bibi & Fufu 任务运行动画](assets/states/running.gif) | 🔍 检查结果 | ![Bibi & Fufu 检查结果动画](assets/states/review.gif) |
-
-另包含 16 个视线方向，方便宠物跟随 Codex 的状态变化。
 
 ## 📦 安装方法
 
@@ -90,13 +86,13 @@ Copy-Item -LiteralPath '.\pet.json', '.\spritesheet.webp' -Destination $petDir -
 
 ## 🎨 造型参考
 
-宠物造型参考：[Bilibili 视频](https://www.bilibili.com/video/BV1AerZB6EbJ/?spm_id_from=333.1387.upload.video_card.click&vd_source=a2cc43d06167c850671a7c6a93dcd5b8)
+[Bilibili 视频](https://www.bilibili.com/video/BV1AerZB6EbJ)
 
 ## 💗 原作者主页
 
 喜欢 Bibi 和 Fufu 的话，请前往原作者主页支持：
 
-- [比比和芙芙 in 哔哩哔哩](https://space.bilibili.com/3546967342844209)
+- [比比和芙芙 in Bilibili](https://space.bilibili.com/3546967342844209)
 - [比比和芙芙 in 小红书](https://www.xiaohongshu.com/user/profile/688a00c200000000290173a0)
 
 ## 🌷 说明
